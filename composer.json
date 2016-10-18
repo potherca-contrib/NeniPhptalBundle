@@ -1,10 +1,28 @@
 {
-    "name": "neni/phptal-bundle",
-    "description": "Renderer TAL in Symfony2 with PHPTAL.",
-    "version":"dev-master",
+    "name": "phptal/phptal-bundle",
+    "description": "Renderer TAL templates in Symfony2 with PHPTAL.",
+    "keywords": ["symfony", "phptal", "tal", "bundle", "template", "templating", "potherca"],
+    "type": "library",
+    "license" : "MIT",
+    "support": {
+        "issues": "https://github.com/phptal/PhptalBundle/issues",
+        "source": "https://github.com/phptal/PhptalBundle/"
+    },
+    "authors": [
+        {
+            "name": "Stéphane Louédin",
+            "role": "author"
+        },
+        {
+            "name": "Ben Peachey",
+            "email": "potherca@gmail.com",
+            "homepage": "https://pother.ca",
+            "role": "maintainer"
+        }
+    ],
     "require": {
-        "phptal/phptal": "*@dev",
-        "symfony/symfony": "~2.3"
+        "phptal/phptal": "^1.3.0",
+        "symfony/symfony": "^2.3.0"
     },
     "autoload": {
         "psr-4": {
